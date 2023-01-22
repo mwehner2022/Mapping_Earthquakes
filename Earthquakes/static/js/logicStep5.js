@@ -129,7 +129,7 @@ legend.onAdd = function() {
     "#ea822c",
     "#ea2c2c"
   ];
-};
+
 
 // Looping through our intervals to generate a label with a colored square for each interval.
 for (var i = 0; i < magnitudes.length; i++) {
@@ -139,5 +139,5 @@ for (var i = 0; i < magnitudes.length; i++) {
     magnitudes[i] + (magnitudes[i + 1] ? "&ndash;" + magnitudes[i + 1] + "<br>" : "+");
 }
 return div;
-
-lengend.addTo(map);
+};
+  lengend.addTo(map);
