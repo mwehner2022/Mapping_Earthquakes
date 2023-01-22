@@ -113,7 +113,7 @@ d3.json(earthquake).then(function(data) {
 });
 
 // Create a legend control object.
-let legnend = L.control({
+let legend = L.control({
   position: "bottomright"
 });
 
@@ -140,4 +140,4 @@ for (var i = 0; i < magnitudes.length; i++) {
 }
 return div;
 };
-  lengend.addTo(map);
+  legend.addTo(map);
