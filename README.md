@@ -34,7 +34,7 @@ See the images below as references:
 ![map1](Earthquake_Challenge/images/1.png)
 
 ### Satellite View With Tectonic Plates
-![map2](Earthquake_Challenge/image/2.png)
+![map2](Earthquake_Challenge/images/2.png)
 
 ### Dark View With Major Earthquakes and Popup 
 ![map3](Earthquake_Challenge/images/3.png)
